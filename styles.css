@@ -8,7 +8,7 @@ h1, h2, h3, p, ul, ol {
 	margin: 0;
 	padding: 0;
 }
-nav ul nav ol {
+nav ul, nav ol {
 	list-style-type: none;
 }
 
@@ -245,6 +245,35 @@ footer .space { color:#bdd4de; }
 	#top p, footer p {
 		font-size: 24px;
 	}
+	
+	/********** desktop nav styles ************/
+	
+	#mobilenav {
+		display: none;
+	}
+	#mainnav {
+		box-sizing: border-box; 
+		position: static; 
+		width: 100%;
+		margin-bottom: 20px; 
+		border-top: none; 
+		border-left: lpx solid #ca6a0c;
+	}
+	#mainnav ul {
+		display: flex;
+	}
+	#mainnav ul li {
+		flex: 1;
+	}
+	#mainnav ul li a {
+		width: 100%; 
+		box-sizing: border-box; 
+		padding: 0; 
+		text-align: center; 
+		border-bottom: none; 
+		border-right: lpx solid #ca6a0c;
+	}
+	
 	
 }
 
